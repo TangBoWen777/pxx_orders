@@ -71,6 +71,7 @@ python pdd_orders.py -t unpaidV2        # 接口原始值同样支持
 python pdd_orders.py -h
 ```
 **支持的订单状态**
+
 | 命令行参数 | 含义 | 接口 type 值 |
 |---|---|---|
 | `all`（默认） | 全部 | `all` |
@@ -82,6 +83,7 @@ python pdd_orders.py -h
 > 英文键、中文名、接口原始值均可，大小写不敏感；输错时会列出全部合法值。
 **分类型存储说明**
 不同订单类型的数据**分文件保存**，互不干扰：
+> 
 | 命令 | 原始数据 | Excel 报表 |
 |---|---|---|
 | `-t all` | `pdd_orders_raw.json` | `拼多多订单报表.xlsx` |
